@@ -30,6 +30,12 @@ option3()
 option4() 
 {
     echo Option 4 Selected
+    #Get the list of running processes
+    processes = px | awk {'print $4'}
+    
+    #
+    # TO DO
+    #
     
     echo
 }
